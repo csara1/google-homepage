@@ -8,20 +8,50 @@ body {
   padding-right: 30px;
 }
 
-.text-links {
-  padding-right: 15px;
+.icon-links {
+  height: 30px;
+  padding-left: 0;
+}
+
+ul {
+  display: inline-block;
 }
 
 li {
   display: inline-block;
+  padding-left: 15px;
+  vertical-align: middle;
 }
 
-a {
+.text-links a {
   color: black;
   text-decoration: none;
 }
 
-a:hover {
+.text-links a:hover {
   color: gray;
   text-decoration: underline;
+}
+
+.icon-links a {
+  color: white;
+  text-decoration: none;
+}
+
+#apps {
+  opacity: 0.55;
+  padding-right: 15px;
+}
+
+#apps:hover {
+  opacity: 1;
+}
+
+#sign-in {
+  background: #4285f4;
+  border: 1px solid #4285f4;
+  font-weight:bold;
+  line-height: 28px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
