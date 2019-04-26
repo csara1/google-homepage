@@ -71,6 +71,10 @@ li {
   width: 582px;
 }
 
+.box:focus-within, .box:hover {
+  box-shadow: 1px 1px 8px #dfe1e5;
+}
+
 input {
   border: none;
   background-color: transparent;
@@ -98,4 +102,19 @@ center input {
 .logo {
   height: 233px;
   padding-top: 198px;
+}
+
+.additional-languages {
+  margin-top: 12px;
+  line-height: 28px;
+}
+
+.additional-languages a {
+  color: #1a0dab;
+  padding: 0 3px;
+  text-decoration: none;
+}
+
+.additional-languages a:visited {
+  color: #609;
 }
